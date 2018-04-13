@@ -1,0 +1,59 @@
+Austin Rosenbaum
+CSCI 305 Prolog Lab
+
+NOTE: I've removed the semicolons and periods for clarity
+
+1. 	X = 'King George VI'
+
+2. 	X = 'Queen Mary'
+
+3. 	X = 'King George V'
+
+4. 	X = 'King George V'
+		X = 'Queen Mary'
+
+5. 	X = 'Prince William'
+		X = 'Prince Henry'
+
+6.	X = 'Princess Margaret'
+
+7.	X = 'Prince Charles'
+		X = 'Prince Andrew'
+		X = 'Prince Edward'
+
+8.	X = 'Princess Anne'
+
+9.
+
+10.	X = 'Catherine Middleton'
+
+11.	X = 'Prince Charles'
+		X = 'Lady Diana Spencer'
+		X = 'Queen Elizabeth II'
+		X = 'Prince Philip'
+		X = 'King George VI'
+		X = 'Lady Elizabeth Bowes-Lyon'
+		X = 'King George V'
+		X = 'Queen Mary'
+		X = 'King Edward VII'
+		X = 'Princess Alexandra of Denmark'
+		X = 'Prince Albert'
+		X = 'Queen Victoria'
+
+12. false (She is the first generation tracked by the dataset)
+
+13.	false (Henry born 1984, William born 1982)
+
+14.	X = 'Queen Victoria'
+		X = 'Princess Alexandra of Denmark'
+		X = 'Queen Mary'
+		X = 'Mrs Simpson'
+		X = 'Lady Elizabeth Bowes-Lyon'
+		X = 'Prince Albert'
+		X = 'King Edward VII'
+		X = 'King George V'
+		X = 'King Edward VIII'
+		X = 'King George VI'
+		X = 'Prince Philip'
+
+15.	X = 'King George V'
