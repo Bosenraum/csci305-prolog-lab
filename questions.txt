@@ -23,7 +23,7 @@ NOTE: I've removed the semicolons and periods for clarity
 
 8.	X = 'Princess Anne'
 
-9.
+9.	
 
 10.	X = 'Catherine Middleton'
 
