@@ -23,7 +23,7 @@ NOTE: I've removed the semicolons and periods for clarity
 
 8.	X = 'Princess Anne'
 
-9.	
+9.	false (Lady Diana spencer has no aunt's in this dataset, also the by marriage addition does not give her the same aunt as her husband)
 
 10.	X = 'Catherine Middleton'
 
@@ -57,3 +57,21 @@ NOTE: I've removed the semicolons and periods for clarity
 		X = 'Prince Philip'
 
 15.	X = 'King George V'
+
+16.	I enjoy how Prolog 'figures' out the answers you want itself. It reminds me a lot of SQL (or I'm sure any database language), in that the actual programming is fairly minimal but the results can be powerful.
+
+17.	Prolog feels very strange as a language to me and it may just be that I'm not used to it fully but it feels odd. Some things make complete sense with it while others feel like a total mystery.
+
+18.	This lab was interesting because it was fairly quick and the results are pretty satisfying. With a dataset so small it is simple to check basic answers but the extended relationships quickly make Prolog's use apparent.
+
+19.	I spent about 2 hours on this lab.
+
+20.	I do not see myself going out of my way to use Prolog in the future, but if I was working on a project that required database scripting of some sort it could definitely come in handy.
+
+EC1.	X = 'Viscount Linley'
+			X = 'Lady Sarah Chatto'
+
+EC2.	X = 'Viscount Linley'
+			X = 'Lady Sarah Chatto'
+
+(This yields the same results since the cousin rule is reciprocal so the ordering of the cousins does not matter)
