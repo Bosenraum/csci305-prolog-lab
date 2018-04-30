@@ -52,7 +52,11 @@ ancestor(A, D):- parent(P, D), ancestor(A, P).
 descendant(D, A):- ancestor(A, D).
 
 % Compare the year both people were born and ensure the older year is less than the younger year
-older(O, Y):- born(O, OYear), born(Y, YYear), OYear < YYear.
+%older(O, Y):- born(O, OYear), born(Y, YYear), OYear < YYear.
+older(O, Y):- lifespan(O, Span1), lifespan(Y, Span2), Span1 > Span2.
+
+lifespan(Name, Span):- born(Name, BY), died(Name, DY), Span is DY - BY, !.
+lifespan(Name, Span):- born(Name, BY), Span is 2018 - BY.
 
 % Simply reverse the older rule
 younger(Y, O):- older(O, Y).

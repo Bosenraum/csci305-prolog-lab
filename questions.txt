@@ -42,19 +42,9 @@ NOTE: I've removed the semicolons and periods for clarity
 
 12. false (She is the first generation tracked by the dataset)
 
-13.	false (Henry born 1984, William born 1982)
+13.	false (Henry born 1984, William born 1982 and both living.)
 
-14.	X = 'Queen Victoria'
-		X = 'Princess Alexandra of Denmark'
-		X = 'Queen Mary'
-		X = 'Mrs Simpson'
-		X = 'Lady Elizabeth Bowes-Lyon'
-		X = 'Prince Albert'
-		X = 'King Edward VII'
-		X = 'King George V'
-		X = 'King Edward VIII'
-		X = 'King George VI'
-		X = 'Prince Philip'
+14.	false (No one is older than Queen Elizabeth II)
 
 15.	X = 'King George V'
 
